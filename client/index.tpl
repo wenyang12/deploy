@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1 class="title">前端代码部署平台<span class="tip">/*** 请使用chrome浏览器 ***/</span></h1>
-    <form id="form" class="form" action="/upload" method="post" enctype="multipart/form-data">
+    <form id="form" class="form" action="/deploy/upload" method="post" enctype="multipart/form-data">
       <div class="form-item">
         <label for="localFolder">本地代码目录：</label>
         <a id="localFolderBtn" class="control file" href="javascript:;">

@@ -46,7 +46,7 @@ const route = (name, handle) => !ROUTERS[name] && (ROUTERS[name] = handle);
 
 
 // 渲染首页
-route('/', (req, res) => {
+route('/deploy', (req, res) => {
   fs.readFile(`${STATIC_DIR}/index.tpl`, 'utf8', (err, tpl) => {
     if (err) {
       res.statusCode = 500;
@@ -69,7 +69,7 @@ const getCodeOptions = (codes) => codes.map(code => `<option value="${code.name}
 
 
 // 接收上传流
-route('/upload', (req, res) => {
+route('/deploy/upload', (req, res) => {
   if (req.method.toLowerCase() !== 'post') {
     // Method Not Allowed
     return end(res, 3);
