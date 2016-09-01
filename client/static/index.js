@@ -12,7 +12,7 @@
   var $progressList = document.getElementById('progressList');
   var progressItemTpl = document.getElementById('progressItemTpl').innerHTML;
 
-  var ignores = ['.git', '.gitignore', '.eslintrc', '.eslintignore'];
+  var ignores = ['.git', '.gitignore', '.eslintrc', '.eslintignore', 'node_modules', '.editorconfig'];
   var progressItems = {};
   var statuses = ['失败', '成功', '上传中', '已拒绝', '文件太大', '上传错误'];
   var failures = 0;
