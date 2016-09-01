@@ -1,0 +1,9 @@
+{
+  "static_host": "localhost",
+  "maxSize": 5,
+  "codes": [{
+    "name": "components",
+    "desc": "Spark组件平台",
+    "path": "./components"
+  }]
+}

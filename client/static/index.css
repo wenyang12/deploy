@@ -1,0 +1,153 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #333;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  margin: 0;
+  font-size: 24px;
+}
+.tip {
+  margin-left: 30px;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+}
+.form {
+  width: 600px;
+}
+.form-item {
+  padding: 20px 0;
+}
+.form-item label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-item .control {
+  position: relative;
+  display: block;
+  width: 600px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.form-item .control.file input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+select::-ms-expand {
+  display: none;
+}
+input[type="text"]::-ms-clear {
+  display: none;
+}
+.btn {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  background-color: #f8a200;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn[disabled] {
+  background-color: #999;
+  color: #eee;
+  cursor: not-allowed;
+}
+
+.result-box {
+  width: 1400px;
+}
+
+.files-box {
+  text-align: right;
+}
+
+.files-box label {
+  font-size: 14px;
+  color: #666;
+  margin-left: 20px;
+}
+
+.progress-box {
+  height: 560px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: #000;
+  color: #fff;
+}
+
+.progress-list {
+  margin: 0;
+}
+
+.progress-item {
+  padding: 5px 0;
+}
+
+.progress-item .progress {
+  float: right;
+}
+
+.progress-item .filename {
+  display: inline-block;
+  max-width: 1000px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.progress-item .loaded {
+  margin-right: 5px;
+  color: #ff0;
+}
+
+.progress-item .total {
+  margin-left: 5px;
+  color: #f90;
+}
+
+.progress-item .status {
+  margin-left: 20px;
+}
+
+.progress-item .status-0,
+.progress-item .status-3,
+.progress-item .status-4,
+.progress-item .status-5 {
+  color: #f22;
+}
+
+.progress-item .status-1 {
+  color: #09f;
+}
+
+.progress-item .status-2 {
+  color: #fff;
+}

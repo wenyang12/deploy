@@ -1,0 +1,22 @@
+{
+  "name": "@tools/deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.firstshare.cn/fe-tools/deploy.git"
+  },
+  "author": "luoying",
+  "license": "ISC",
+  "devDependencies": {
+    "pre-commit": "^1.1.3"
+  },
+  "dependencies": {
+    "formidable": "^1.0.17",
+    "mkdirp": "^0.5.1"
+  }
+}
